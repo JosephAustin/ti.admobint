@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 3
+architectures: armeabi-v7a x86
+description: Titanium Admob module for Android (with interstitial support)
+author: Brian Kurzius, Joseph Austin
+license: Apache License, Version 2.0
+copyright: Copyright (c) 2011 by Studio Classics
+
+
+# these should not be edited
+name: admobint
+moduleid: ti.admobint
+guid: 9f57138e-b6cb-4804-a5c9-d8a7898e43d3
+platform: android
+minsdk: 6.0.4
