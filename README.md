@@ -1,4 +1,4 @@
-Titanium Admob module for interstitial ads
+Titanium Admob module for interstitial (AND BANNER!) ads
 ============
 
 Cross platform solution for interstitial ads in Titanium. Forked and highly
