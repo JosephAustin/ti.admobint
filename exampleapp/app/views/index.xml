@@ -1,0 +1,7 @@
+<Alloy>
+	<Window layout="vertical">
+		<View height="70%" id="banner_container"/>
+		<Button id="loadbannerbutton">Load banner</Button>
+		<Button id="loadintbutton">Load interstitial</Button>
+	</Window>
+</Alloy>
