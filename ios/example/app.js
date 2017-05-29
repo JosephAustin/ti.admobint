@@ -13,3 +13,5 @@ ads.loadInterstitial({
 });
 
 // Yes that's all you do.
+
+// You should also checkout the example application to see how banners work.
