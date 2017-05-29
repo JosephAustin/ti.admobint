@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A0D22E71ED9156200F65BC8 /* TiAdmobintBannerViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A0D22E31ED9156200F65BC8 /* TiAdmobintBannerViewProxy.h */; };
+		0A0D22E81ED9156200F65BC8 /* TiAdmobintBannerViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0D22E41ED9156200F65BC8 /* TiAdmobintBannerViewProxy.m */; };
+		0A3D79991ED915D5000D95AF /* TiAdmobintBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A3D79971ED915D5000D95AF /* TiAdmobintBannerView.h */; };
+		0A3D799A1ED915D5000D95AF /* TiAdmobintBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3D79981ED915D5000D95AF /* TiAdmobintBannerView.m */; };
 		0A4F2B811ED51757004DDC43 /* TiAdmobintModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A4F2B7F1ED51757004DDC43 /* TiAdmobintModule.h */; };
 		0A4F2B821ED51757004DDC43 /* TiAdmobintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4F2B801ED51757004DDC43 /* TiAdmobintModule.m */; };
 		3A4F268F1C68DDF7003E06CF /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A4F268E1C68DDF7003E06CF /* iAd.framework */; };
@@ -34,6 +38,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A0D22E31ED9156200F65BC8 /* TiAdmobintBannerViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdmobintBannerViewProxy.h; path = Classes/TiAdmobintBannerViewProxy.h; sourceTree = "<group>"; };
+		0A0D22E41ED9156200F65BC8 /* TiAdmobintBannerViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdmobintBannerViewProxy.m; path = Classes/TiAdmobintBannerViewProxy.m; sourceTree = "<group>"; };
+		0A3D79971ED915D5000D95AF /* TiAdmobintBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdmobintBannerView.h; path = Classes/TiAdmobintBannerView.h; sourceTree = "<group>"; };
+		0A3D79981ED915D5000D95AF /* TiAdmobintBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdmobintBannerView.m; path = Classes/TiAdmobintBannerView.m; sourceTree = "<group>"; };
 		0A4F2B7F1ED51757004DDC43 /* TiAdmobintModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiAdmobintModule.h; path = Classes/TiAdmobintModule.h; sourceTree = "<group>"; };
 		0A4F2B801ED51757004DDC43 /* TiAdmobintModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiAdmobintModule.m; path = Classes/TiAdmobintModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
@@ -144,6 +152,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0A3D79971ED915D5000D95AF /* TiAdmobintBannerView.h */,
+				0A3D79981ED915D5000D95AF /* TiAdmobintBannerView.m */,
+				0A0D22E31ED9156200F65BC8 /* TiAdmobintBannerViewProxy.h */,
+				0A0D22E41ED9156200F65BC8 /* TiAdmobintBannerViewProxy.m */,
 				0A4F2B7F1ED51757004DDC43 /* TiAdmobintModule.h */,
 				0A4F2B801ED51757004DDC43 /* TiAdmobintModule.m */,
 			);
@@ -183,8 +195,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A3D79991ED915D5000D95AF /* TiAdmobintBannerView.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* admobint_Prefix.pch in Headers */,
 				0A4F2B811ED51757004DDC43 /* TiAdmobintModule.h in Headers */,
+				0A0D22E71ED9156200F65BC8 /* TiAdmobintBannerViewProxy.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +219,7 @@
 			);
 			name = admobint;
 			productName = admobint;
-			productReference = D2AAC07E0554694100DB518D /* libTiAdmobint.a */;
+			productReference = D2AAC07E0554694100DB518D /* libTiAdmob.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -238,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A0D22E81ED9156200F65BC8 /* TiAdmobintBannerViewProxy.m in Sources */,
 				0A4F2B821ED51757004DDC43 /* TiAdmobintModule.m in Sources */,
+				0A3D799A1ED915D5000D95AF /* TiAdmobintBannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
